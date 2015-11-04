@@ -1,0 +1,6 @@
+app/code/community/MobWeb/UpdatePaymentMethodTitleAndInstructions app/code/community/MobWeb/UpdatePaymentMethodTitleAndInstructions/
+
+app/etc/modules/MobWeb_UpdatePaymentMethodTitleAndInstructions.xml app/etc/modules/MobWeb_UpdatePaymentMethodTitleAndInstructions.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MobWeb_UpdatePaymentMethodTitleAndInstructions>
+            <version>0.0.1</version>
+        </MobWeb_UpdatePaymentMethodTitleAndInstructions>
+    </modules>
+    <global>
+        <helpers>
+            <updatepaymentmethodtitleandinstructions>
+                <class>MobWeb_UpdatePaymentMethodTitleAndInstructions_Helper</class>
+            </updatepaymentmethodtitleandinstructions>
+        </helpers>
+        <models>
+            <updatepaymentmethodtitleandinstructions>
+                <class>MobWeb_UpdatePaymentMethodTitleAndInstructions_Model</class>
+            </updatepaymentmethodtitleandinstructions>
+            <payment>
+                <rewrite>
+                    <method_banktransfer>MobWeb_UpdatePaymentMethodTitleAndInstructions_Model_Method_Banktransfer</method_banktransfer>
+                </rewrite>
+            </payment>
+        </models>
+    </global>
+</config>
